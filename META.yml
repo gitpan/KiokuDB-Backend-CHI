@@ -1,0 +1,26 @@
+---
+abstract: 'CHI backend for KiokuDB'
+author:
+  - 'Anders Nor Berle <berle@cpan.org>'
+build_requires:
+  KiokuDB: 0
+  KiokuDB::Test: 0
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.31
+generated_by: 'Dist::Zilla version 2.101310'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: KiokuDB-Backend-CHI
+recommends: {}
+requires:
+  CHI: 0
+  Data::Stream::Bulk::Array: 0
+  KiokuDB::Backend: 0
+  KiokuDB::Backend::Role::Clear: 0
+  KiokuDB::Backend::Role::Scan: 0
+  KiokuDB::Backend::Serialize::Delegate: 0
+  Moose: 0
+version: 0.01

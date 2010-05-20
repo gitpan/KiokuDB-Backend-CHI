@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST
+META.yml
+Makefile.PL
+README
+dist.ini
+lib/KiokuDB/Backend/CHI.pm
+t/001_use.t
+t/002_fixtures.t
+t/release-pod-coverage.t
+t/release-pod-syntax.t
